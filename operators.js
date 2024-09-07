@@ -45,3 +45,8 @@ console.log(x < y && a == y);
 console.log(x < y || a == y);
 console.log(!false);
 console.log(!true);
+
+let p = 30;
+console.log(p);
+console.log(p++);
+console.log(p);
