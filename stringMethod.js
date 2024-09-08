@@ -21,3 +21,14 @@ console.log(production.concat("  is a online partner of " + media, " ok "));
 //trim method
 let song = "   metalic   ";
 console.log(song.trim());
+
+let genre = "   pop    ";
+console.log(genre.trim());
+
+//Strings are immutable inorder to access the character at an index we use the following syntax.
+let destination = "dolpa" + "rara" + "shey";
+console.log(destination[0]);
+console.log(destination[1]);
+console.log(destination[2]);
+console.log(destination[3]);
+console.log(destination);
