@@ -1,0 +1,23 @@
+body {
+  background-color: cadetblue;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+nav li {
+  list-style: none;
+  padding: 0 20px;
+  background: rgb(234, 236, 236);
+  height: 40px;
+  width: 1200px;
+}
