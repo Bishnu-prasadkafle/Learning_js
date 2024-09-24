@@ -1,0 +1,26 @@
+<!--Insert adjacemnt HTML/Text/element
+This method is used to insert HTML. The first parameters is a code word, specifying where to insert. Must be one of the following :
+ 1. "beforebegin" = Insert html immediately before element.
+ 2. "afterbegin "= Insert html into elements to the beginning.
+ 3."beforeend" = Insert html into elements at the end.
+ 4. "afterend" = Insert html immediately after element.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>insert Adjacent</title>
+  </head>
+  <body>
+    <div id="first">Hey i am first</div>
+  </body>
+  <script>
+    // first.insertAdjacentHTML( "beforeend", '<div class = "test">comes beforeend</div>' );
+    //  first.insertAdjacentHTML("beforebegin", '<div class = "test">comes beforebegin</div>' );
+    //first.insertAdjacentHTML(   "afterbegin",  '<div class = "test">comes afterbegin</div>' );
+    //first.insertAdjacentHTML( "afterend",  '<div class = "test">comes beforeend</div>' );
+    first.remove();
+  </script>
+</html>

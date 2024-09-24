@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insertion Methods</title>
+  </head>
+  <body>
+    i am start of this container(outer)
+    <div class="container">
+      i am start of this container(inner)
+      <div id="first">I am a first element</div>
+      i am a end of this container(inner)
+    </div>
+    i am start of this container(outer)
+  </body>
+  <script>
+    let a = document.getElementsByTagName("div")[0];
+    // a.innerHTML = a.innerHTML + "<h1> Hello Bipin are u fine </h1>";
+    let div = document.createElement("div");
+    div.innerHTML =
+      "<h1>Hello world this my fav playlist to learning javascript </h1>";
+    // a.appendChild(div);
+    // a.append(div);
+    // a.prepend(div);
+    //a.before(div);
+    //a.after(div);
+    // a.replaceWith(div);
+  </script>
+</html>

@@ -1,0 +1,39 @@
+<!--SetTimeout and setInterval
+SetTimeout allows us to run a function once given the interval of time 
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settimeout&interval</title>
+  </head>
+  <body></body>
+
+  <script>
+    document.write("Hello");
+    /*
+      let a = setTimeout(function () {
+        alert("i am in the setTimeout ");
+      }, 2000);
+
+      let b = prompt("Do you want to run this setTime Out ");
+      if ("no" == b) {
+        clearTimeout(a);
+      }
+      console.log(a);*/
+
+    const sum = (a, b, c) => {
+      console.log("I am rubbing " + (a + b + c));
+      a + b;
+    };
+
+    setTimeout(sum, 1000, 2, 3, 4);
+    setInterval(function () {
+      alert("alert in every 2 sec (this is set Interval)");
+    }, 2000);
+  </script>
+</html>
